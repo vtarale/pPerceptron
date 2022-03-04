@@ -1,4 +1,5 @@
 import Vectors.vectors as vector
+import math
 
 class Perceptron:
     # initlizing weigths
@@ -15,7 +16,7 @@ class Perceptron:
             return -1
     # sigmoid activation function
     def sigmoid(self, x):
-        return (3.7 ** x)/((3.7 ** x) + 1)
+        return 1/(math.e ** (-1 * (x)))
     # the deflaut activation function
     def deflaut_activation(self, x):
         if x <= 0:

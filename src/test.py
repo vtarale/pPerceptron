@@ -41,5 +41,5 @@ if __name__ == "__main__":
     perceptron = Test(1, 1)
     perceptron.create_normal(30000, 500000, 5000000)
     perceptron.split(29900)
-    perceptron.t(100)
-    perceptron.te()
+    perceptron.t(100, sigmoid=True)
+    perceptron.te(sigmoid=True)

@@ -1,2 +1,2 @@
 # Perceptron
-Perceptron lib
+Perceptron library

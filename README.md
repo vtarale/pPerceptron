@@ -1,5 +1,4 @@
 # Perceptron
-Perceptron library
-# Still writing
+Perceptron impletation
 ## LICENSE
 [MIT](https://github.com/vtarale/Perceptron/blob/main/LICENSE)

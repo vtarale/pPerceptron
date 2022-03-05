@@ -39,7 +39,7 @@ class Test:
 
 if __name__ == "__main__":
     perceptron = Test(1, 1)
-    perceptron.create_normal(30000, 500000, 5000000)
-    perceptron.split(29900)
-    perceptron.t(5)
+    perceptron.create_normal(3000, 500000, 5000000)
+    perceptron.split(2900)
+    perceptron.t(10)
     perceptron.te()

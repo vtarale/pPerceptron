@@ -1,1 +1,1 @@
-print("Thanks for using Vectors")
+print("Thanks for using Perceptron")

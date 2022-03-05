@@ -19,7 +19,7 @@ class Test:
             x = random.randint(rangex * -1, rangex)
             y = random.randint(rangey * -1, rangey)
             label = 1
-            if x > y:
+            if x < y:
                 label = -1
             self.points.append(Point(x, y, label))
     # split training and testing data
@@ -41,5 +41,5 @@ if __name__ == "__main__":
     perceptron = Test(1, 1)
     perceptron.create_normal(30000, 500000, 5000000)
     perceptron.split(29900)
-    perceptron.t(100, sigmoid=True)
-    perceptron.te(sigmoid=True)
+    perceptron.t(5)
+    perceptron.te()

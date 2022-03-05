@@ -46,8 +46,9 @@ class Perceptron:
                 error = answers[i] - guess
                 if error == 0:
                     self.correct = self.correct + 1
-                for index in range(len(xs)):
-                    self.w.inputs[index] = self.w.inputs[index] + self.gradient_descent(error, xs[index])
+                else:
+                    for index in range(len(xs)):
+                        self.w.inputs[index] = self.w.inputs[index] + self.gradient_descent(error, xs[index])
                 i = i + 1
             print(f"Epochs:{epoch}, Correct:{self.correct}")
     # test the perceptron

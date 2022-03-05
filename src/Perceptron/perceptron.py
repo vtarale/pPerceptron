@@ -16,7 +16,7 @@ class Perceptron:
             return -1
     # sigmoid activation function
     def sigmoid(self, x):
-        return 1/(math.e ** (-1 * (x)))
+        return 1/(1 + math.exp(-1 * x))
     # the deflaut activation function
     def deflaut_activation(self, x):
         if x <= 0:
